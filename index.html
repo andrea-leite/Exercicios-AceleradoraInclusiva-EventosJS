@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercícios Eventos JS</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h2>Lista de Exercícios - Eventos JS</h2>
+            <p class="paragrafoCabecalho">Exercícios sobre Eventos JS feitos na <span>Aceleradora Inclusiva PCD.</span> Divididos por nivel de dificuldade para iniciantes</p>
+        </div>    
+    </header>
+
+    <section class="levelOne">
+        <div class="exercicio primeiroExercicio">
+            <p>Exercício</p>
+            <p class="exercicioNumero">1</p>
+            <p>Alerta Simples</p>
+            <br>
+            <button onclick = "botaoClicado()" class="button">Clique aqui</button>
+        </div>
+        <div class="exercicio segundoExercicio">
+            <p>Exercício</p>
+            <p class="exercicioNumero">2</p>
+            <p id="paragrafoTroca">Troca de Texto</p>
+            <br>
+            <button id="buttonTwo" class="button">Clique aqui</button>
+        </div>
+        <div class="exercicio terceiroExercicio" id="corDeFundo">
+            <p>Exercício</p>
+            <p class="exercicioNumero">3</p>
+            <p>Cor de Fundo</p>
+            <br>
+            <button onclick="mudarCor()" class="button">Clique aqui</button>
+        </div>
+    </section>
+    
+    <section class="levelTwo">
+        <div class="exercicio quartoExercicio">
+            <p>Exercício</p>
+            <p class="exercicioNumero">4</p>
+            <p>Contador de Cliques</p>
+            <p id="contador">0</p>
+            <br>
+            <button id="buttonFour" class="button">Clique aqui</button>
+        </div>
+        <form onsubmit="validarFormulario()" class="exercicio quintoExercicio">
+            <p>Exercício</p>
+            <p class="exercicioNumero">5</p>                
+            <p>Validação de Formulário</p>
+            <label class="formulario"></label>
+                <input type="text" id="campoTexto">                
+                <button type="submit" id="buttonEnviar">Enviar</button>            
+        </form>
+    </section>
+
+    <section class="levelThree">
+        <div class="exercicio sextoExercicio">
+            <p>Exercício</p>
+            <p class="exercicioNumero">6</p>
+            <p>Lista Interativa</p>            
+            <ol type="1" id="minhaLista">                
+                <li>Nós somos como o clima: feitos de dias de chuva e de sol!</li>
+                <li>A palavra “impossível” foi inventada para ser desafiada.</li>                           
+                <li>Não há a necessidade de caminhar rápido. Apenas siga caminhando.</li>
+            </ol>
+            <p><span>Clique no item para remover da lista</span></p>                        
+        </div>
+        <div class="exercicio setimoExercicio" id="container">
+            <p>Exercício</p>
+            <p class="exercicioNumero">7</p>
+            <p>Manipulação de imagens</p>
+            <p><span>Clique na imagem!</span></p>
+            <img id="imagem" src="/img/flowers.jpg" alt="Onça preta">
+        </div>
+    </section>
+
+    <script src="/JS/exercicio1.js"></script>
+    <script src="/JS/exercicio2.js"></script>
+    <script src="/JS/exercicio3.js"></script>
+    <script src="/JS/exercicio4.js"></script>
+    <script src="/JS/exercicio5.js"></script>
+    <script src="/JS/exercicio6.js"></script>
+    <script src="/JS/exercicio7.js"></script>
+
+
+</body>
+<footer>Desenvolvido por Andréa Leite - Aluna da Aceleradora Inclusiva PCD 2024</footer>
+</html>
